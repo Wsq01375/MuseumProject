@@ -1,0 +1,137 @@
+font-famil: 'Archivo', sans-serif;
+
+#banner-message {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 300px;
+}
+
+button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+nav div{
+    background-color:#000;
+    text-align: center;
+    font-size: 2vw;
+    align-content: space-between;
+    color: #fff;
+    margin:15px;
+   
+}
+
+nav div a{
+    text-decoration: none;
+}
+
+#container1{
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+    padding 10px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#Home{
+    background-color: white;
+    font-size: 30px;
+}
+
+#Mans{
+    background-color: white;
+    font-size: 30px;
+}
+
+#Woman{
+    background-color: white;
+    font-size: 30px;
+} 
+
+#Children{
+    background-color: white;
+    font-size: 30px;
+} 
+
+#Shoes{
+    background-color: white;
+    font-size: 30px;
+} 
+
+#Custom{
+    background-color: white;
+    font-size: 30px;
+} 
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+body {
+    background-image: url()
+}
+
+#pic1{
+    position: relative; 
+    background-image: url();
+    grid-column: 1;
+    grid-row: 0;
+}
+
+#pic2{
+    position: relative; 
+    background-image: url();
+    grid-column: 2;
+    grid-row: 0;
+}
+
+#pic3{
+    position: relative; 
+    background-image: url();
+    grid-column: 3;
+    grid-row: 0;
+}
+
+#pic4{
+    position: relative; 
+    background-image: url();
+    grid-column: 4;
+    grid-row: 0;
+}
+
+#pic5{
+    position: relative; 
+    background-image: url();
+    grid-column: 5;
+    grid-row: 1;
+}
+
+#pic6{
+    position: relative; 
+    background-image: url();
+    grid-column: 6;
+    grid-row: 0;
+}
+
+footer {
+  grid-column: 1/4;
+  grid-row: 10/13;
+    font-size: 40px;
+    font-family: sans-serif
+  background-size:contain;
+}
